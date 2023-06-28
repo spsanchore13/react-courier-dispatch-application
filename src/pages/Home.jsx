@@ -14,7 +14,7 @@ const Home = () => {
     setResult({});
     axios
       .post(
-        `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/courier/charges`,
+        `https://react-courier-dispatch.onrender.com/courier/charges`,
         payload
       )
       .then((res) => {
