@@ -1,0 +1,49 @@
+.App {
+  padding: 5px 10px;
+}
+
+[data-cy="courier_container"]{
+  display: flex;
+  margin:5% auto;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  text-align: center;
+  padding: 2%;
+  border:1px dashed black;
+  border-radius: 2%;  
+}
+
+input,select{
+  padding: 1.25% 2.5%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+input[type="submit"]{
+  background-color: green;
+  color:white;
+  width:fit-content;
+  margin: auto;
+}
+
+.show_charges{
+  width: 21%;
+  padding: 2%;
+  border:1px dashed black;
+  border-radius: 2%;  
+  text-align: initial;
+}
+
+.loading_indicator {
+  width: 20%;
+  margin: 15% auto auto 41%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
